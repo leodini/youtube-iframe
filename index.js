@@ -56,12 +56,4 @@ button.addEventListener("click", () => {
   }
 });
 
-document.addEventListener(
-  "k",
-  e => {
-    if (e.key === "k") {
-      player.playVideo();
-    }
-  },
-  false
-);
+
